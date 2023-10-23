@@ -1,0 +1,15 @@
+# Based off Google's style guide https://google.github.io/styleguide/cppguide.html.
+BasedOnStyle: Google
+Language: Cpp
+
+# Each line has a max of 120 characters.
+ColumnLimit: 120
+
+# Tabs and indents have 4 spaces.
+TabWidth: 4
+AccessModifierOffset: -4
+IndentWidth: 4
+
+# Always align pointers to the left.
+PointerAlignment: Left
+DerivePointerAlignment: false
